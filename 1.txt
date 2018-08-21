@@ -1,0 +1,20 @@
+chmod 命令 修改文件的权限
+
+1、文字设定法
+chmod who [+|-|=] mode 文件名
+2、数字设定法
+chmod [+|-|=] mode 文件名 
+
+chown 修改文件所有者或所属组
+
+chown 所有者（所属组） 文件名
+
+find 查找文件
+
+find 搜索路径 参数(name、type、size等等) 文件名
+
+grep 查找文件内容
+
+grep -r 查找内容 搜索路径
+
+三种压缩命令 tar、rar、zip/unzip
