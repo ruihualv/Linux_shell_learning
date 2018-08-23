@@ -1,0 +1,29 @@
+静态库
+
+生成.o文件
+gcc 源代码 -c
+
+打包
+
+
+ar rcs libtest.a 原材料
+
+使用
+
+gcc test.c-L./ -l test
+
+动态库
+
+生成.0文件
+
+gcc 源代码 -c  -fpic
+
+打包
+
+gcc shared 源代码 -0 libtest.so
+
+
+export LD_LIBRARY_PATH=动态库路径
+
+
+export LD_LIBRARY_PATH=动态库路径:$LD_LIBRARy_PATH
