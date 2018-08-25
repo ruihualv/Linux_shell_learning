@@ -1,0 +1,22 @@
+make
+makefile规则
+
+目标:依赖
+	命令
+
+app:add.c plus.c main.c
+	gcc -c abb.c plus.c main.c -o app
+
+$@ 规则中的目标
+$< 规则中的第一个以来
+$^ 规则中的所有依赖
+
+makefile函数
+
+查找指定目录下的文件
+
+src=$(wildcard ./*.c)
+
+匹配替换
+
+obj=$(patsubst %.c,%.0,$(src))
