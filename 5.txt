@@ -1,0 +1,57 @@
+gdb调试命令
+
+设置断电
+
+b 文件名：行号
+b 文件名：函数名
+
+查看断点
+
+info (i) b
+
+删除断点
+
+d num
+d num1 num2
+d num1-num2
+
+设置断点无效
+
+dis num
+
+断点生效
+
+ena num
+
+进入调试
+
+gdb 程序名
+
+开始调试
+
+r/start
+
+向下单步调试
+
+next/-n
+step/-s
+
+继续运行 gdb
+
+continue/c
+
+打印变量名
+
+p 变量名
+
+打印变量类型
+
+ptype 变量名
+
+变量的自动显示
+
+display 变量名
+
+取消自动显示
+
+undisplay 编号
